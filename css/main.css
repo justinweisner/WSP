@@ -52,7 +52,10 @@ h3 {
 }
 
 
-dl { margin-bottom: 2rem; }
+dl { 
+	margin-bottom: 2rem;
+	height:30px;
+ }
 dt {
 	margin-right: 1rem;
 	clear: left;
@@ -68,7 +71,7 @@ dt, dd {
 
 /* visited link */
 	a:visited {
-		color: #dc143c;
+		color: #F0E68C;
 	}
 
 /* mouse over link */
@@ -81,7 +84,20 @@ dt, dd {
 		color: #0000FF;
 	}
 
-
+.buttons{
+	border: 2px solid;
+	width: 160px;
+	text-align: center;
+	list-style-type: none;
+	background-color: red;
+	margin-top: 10px;
+}
+	
+.buttons li {
+	position: relative;
+	list-style-type: none;
+	display: inline-block;
+}
 
 
 
@@ -166,6 +182,7 @@ article.featured::before {
     transform: rotate(-90deg);	
 }*/
 
+
 article img	{
 	display: block;
 	width: 100%;
@@ -176,8 +193,10 @@ article img	{
 
 /*FOR SOME REASON, THIS TAG WOULD NOT ERASE THE MARGIN TO CONNECT THE BOTTOM OF THE ARTICLE TO THE FOOTER*/
 /*article #signUp{
-	margin-bottom: 0;*/
-}
+	margin-bottom: 0;
+}*/
+
+
 /* COMPONENT ACTIONS */
 
 
