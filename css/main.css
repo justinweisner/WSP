@@ -185,31 +185,9 @@ article.featured::before {
 
 article img	{
 	display: block;
-	width: 100%;
+	max-width: 830px;
 	margin-bottom: 3rem;
 	background: #cccccc;
 	border: solid 2px #eaeaea;
 }
 
-/*FOR SOME REASON, THIS TAG WOULD NOT ERASE THE MARGIN TO CONNECT THE BOTTOM OF THE ARTICLE TO THE FOOTER*/
-/*article #signUp{
-	margin-bottom: 0;
-}*/
-
-
-/* COMPONENT ACTIONS */
-
-
-/* DROP-DOWN ============================== */
-
-
-
-
-
-/* FOOTER */
-footer {
-
-}
-footer a { 
-	
-}
