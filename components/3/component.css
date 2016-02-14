@@ -2,3 +2,30 @@
 ============================================================
 ============================================================*/
 
+body{
+	background-color: #000;
+	color: #fff;
+}
+
+h2{
+	margin: 0 auto;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 4em;
+	text-decoration: underline;
+}
+
+#gallery {
+	width: 90%;
+	height: 1100px;
+	margin: 0 auto;
+}
+
+
+img {
+		padding: .9%;
+		margin: 0 auto;
+}
+
+
+
