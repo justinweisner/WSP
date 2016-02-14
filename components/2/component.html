@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>WSP Component: Firstname Lastname</title>
+	<title>WSP Modal: Justin Weisner</title>
 
 	<link rel="stylesheet" type="text/css" href="../../css/reset.css" />
-	<link rel="stylesheet" type="text/css" href="component.css" />
-
-	
+	<link rel="stylesheet" type="text/css" href="css/component.css" />		
 </head>
+
 <body>
+	<div class="click">
+		<button name="btn" id="btn"><a href="#" class="modalClick">Click Me!</a></button>
+	</div>
 
-	<!-- Component -->
 
-	<!-- End Component -->
-	
+<!--Modal-->
+	<div id="overlay">
+		<section id="modal">
+			<span class="close">X</span>
+				<div>
+					<p>Thanks for clicking. That felt good. <br> Click close in order to exit the modal.</p>
+				</div><!--Closes div-->
+		</section><!--Closes modal-->
+	</div><!--Closes Overlay-->
+
+<script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
