@@ -1,18 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>WSP Component: Firstname Lastname</title>
+	<title>WSP To Do List: Justin Weisner</title>
 
 	<link rel="stylesheet" type="text/css" href="../../css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="component.css" />
-
 	
 </head>
 <body>
+  <section> 
+  <form id="form" action="#" method="POST">
+    <input id="description" name="description" type="text" /> 
+    <button id="add" type="submit" value="Add" />Add</button>
+    <button id="clear">Clear All</button> 
+  </form>
+   
+  <div>  
+    <ul id="todos"></ul>
+  </div>
+</section>
 
-	<!-- Component -->
 
-	<!-- End Component -->
-	
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js">
+</script>
+
+<script src="js/script.js"></script>
 </body>
 </html>
