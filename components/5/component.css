@@ -15,3 +15,14 @@
 	font-size: 1.5em;
 }
 
+#check{
+	margin-right: 10px;
+}
+
+button{
+	background-color: white;
+}
+
+li{
+	list-style-type: none;
+}

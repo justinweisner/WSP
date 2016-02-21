@@ -8,6 +8,7 @@
 }
 
 header {
+  font-family: sans-serif;
   max-width: 1170px;
   height: 65px;
 	margin: 0 92.5px 0 92.5px;
@@ -67,8 +68,6 @@ footer {
   background: url(../images/search.png) no-repeat right top;
   
 }
-
-
 
 
 /* Name of Company Brand */
